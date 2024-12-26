@@ -22,4 +22,22 @@ then
 	mkdir -p "auth"
 fi
 
+trap exit_on_signal_SIGINT SIGINT
+trap exit_on_signal_SIGTERM SIGTERM
+
+check_PID="php cloudflared loclx"
+for process in ${check_PID}; do
+	if [[ $(pidof ${process}) ]]; then
+		killall ${process} > /dev/null 2>&1
+	fi
+done
+
+if [[ $(command -v php) && $(command -v curl) && $(command -v unzip) ]]; then
+	echo -e "\n${GREEN}[${WHITE}+${GREEN}]${GREEN} Dependencias instaladas."
+else
+	pkgs=(php curl unzip)
+	for pkg in "${pkgs[@]}"; do
+		...
+	done
+fi
 

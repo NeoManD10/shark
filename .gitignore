@@ -1,4 +1,4 @@
-# Ignorar archivos y carpetas relacionadas con Docker
+# Archivos y carpetas relacionadas con Docker
 *.log
 *.pid
 *.sock
@@ -15,12 +15,12 @@ docker-data/
 .cache
 node_modules/
 
-# Ignorar contenedores y datos generados
+# Contenedores y datos generados
 auth/
 temp/
 tests/
 
-# Ignorar Python Runtime Files
+# Cache de python
 __pycache__/
 *.py[cod]
 *.pyo
