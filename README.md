@@ -44,8 +44,14 @@ Clona este repositorio en tu máquina local. Una vez dentro de la carpeta que pr
 
 ```bash
 $ git clone https://github.com/NeoManD10/shark.git
+```
+```bash
 $ chmod +x shark
+```
+```bash
 $ ./shark
+```
+```bash
 $ ssh -R 80:localhost:8080 nokey@localhost.run
 ```
 
