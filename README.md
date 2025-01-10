@@ -31,3 +31,5 @@ La herramienta crea una página web que simula ser una página legítima (por ej
 - Los demas requisitos se instalan automaticamente en el script
 
 ---
+
+**Cabe destacar el archivo login.html es codigo html es de AliMilani por el momento. Estoy en proceso de hacer mi version.**
