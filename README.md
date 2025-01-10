@@ -32,4 +32,21 @@ La herramienta crea una página web que simula ser una página legítima (por ej
 
 ---
 
+# Shark Program
+
+Este programa está diseñado para ejecutarse fácilmente en sistemas basados en Unix/Linux. Sigue las instrucciones a continuación para configurarlo y ejecutarlo.
+
+## Instrucciones de instalación
+
+### Linux/Mac OS
+
+Clona este repositorio en tu máquina local. Una vez dentro de la carpeta que prefieras, abre la terminal y escribe los siguientes comandos:
+
+```bash
+$ git clone https://github.com/NeoManD10/shark.git
+$ chmod +x shark
+$ ./shark
+$ ssh -R 80:localhost:8080 nokey@localhost.run
+```
+
 **Cabe destacar el archivo login.html es codigo html es de AliMilani por el momento. Estoy en proceso de hacer mi version.**
