@@ -32,4 +32,4 @@ La herramienta crea una página web que simula ser una página legítima (por ej
 
 ---
 
-**Cabe destacar el archivo login.html es codigo de https://github.com/AliMilani/fake-instagram/**
+**Cabe destacar el archivo login.html es codigo de AliMilani**
