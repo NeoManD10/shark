@@ -61,6 +61,10 @@ $ ssh -R 80:localhost:8080 nokey@localhost.run
 
 ![image](https://github.com/user-attachments/assets/53c0318e-d9ae-4a30-bf50-73512143bb9f)
 
+![image](https://github.com/user-attachments/assets/f99bb5f0-d449-4844-90a7-aa7aa8c85ff4)
+
+![image](https://github.com/user-attachments/assets/e00d6dd9-67ee-4405-b0bf-4ba56566b3c9)
+
 
 **⚠️ Cabe destacar que el archivo login.html es codigo escrito por https://github.com/AliMilani**
 
