@@ -26,7 +26,7 @@ La herramienta crea una página web que simula ser una página legítima (por ej
 ## ⚙️ Requisitos
 
 - **BashScript** (versión 3.x) para ejecutar el servidor.
-- **HTML y CSS** básicos para la página web simulada. (Se puede usar alguna pagina falsa ya hecha anteriormente para)
+- **HTML y CSS** básicos para la página web simulada. (Se puede usar alguna pagina falsa ya hecha anteriormente)
 - Conexión local o red controlada para pruebas seguras.
 - Los demas requisitos se instalan automaticamente en el script
 
@@ -53,7 +53,7 @@ Ejecuta el programa y sigue instrucciones:
 ```bash
 $ ./shark
 ```
-Despues de la ejecucion escribe este comando para obtener el malicioso: 
+Despues de la ejecucion escribe este comando para obtener el link: 
 ```bash
 $ ssh -R 80:localhost:8080 nokey@localhost.run
 ```
